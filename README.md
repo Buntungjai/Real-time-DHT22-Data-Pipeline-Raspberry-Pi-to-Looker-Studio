@@ -3,7 +3,22 @@
 <p align="center">
   <img src="images/pi4dht22.png" width="400">
 </p>
-อุปกรณ์ที่ใช้ในโปรเจคนี้มี raspberry pi 4 และ dht22 <br>
+ดำเนินการติดตั้งระบบปฏิบัติการ Raspberry Pi OS (64-bit) ลงบน MicroSD Card ผ่านเครื่องมือ Raspberry Pi Imager พร้อมทั้งตั้งค่าการเชื่อมต่อระยะไกลผ่าน SSH เพื่อความสะดวกในการบริหารจัดการระบบแบบ Headless (ไม่ต้องต่อจอภาพ)
+
+Virtual Environment: จัดทำ Python Virtual Environment (venv) เพื่อแยกแยะ Library สำหรับการอ่านค่าเซนเซอร์ ป้องกันความสับสนของ Package ในระบบหลัก (System-wide)
+
+Hardware Wiring & Pinout Mapping
+Interface Connectivity: ทำการวิเคราะห์ GPIO Pinout diagram ของ Raspberry Pi 4 เพื่อเชื่อมต่อกับเซนเซอร์ DHT22 ผ่านสายสัญญาณแบบ Digital
+
+Circuit Integration:
+
+VCC (3.3V): ต่อเข้ากับขา Pin 1
+
+Data: ต่อเข้ากับขา GPIO 4 (Pin 7) เพื่อส่งสัญญาณข้อมูลแบบ One-Wire
+
+GND: ต่อเข้ากับขา Pin 9
+
+การเลือกใช้ GPIO 4 ช่วยให้การเขียนโปรแกรมจัดการข้อมูลเป็นมาตรฐานและง่ายต่อการ Debug ผ่าน Library
 
 <p align="center">
   <img src="images/VScode.jpg" width="800">
