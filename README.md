@@ -6,7 +6,7 @@
 อุปกรณ์ที่ใช้ในโปรเจคนี้มี raspberry pi 4 และ dht22 <br>
 
 <p align="center">
-  <img src="images/VScode.jpg" width="400">
+  <img src="images/VScode.jpg" width="800">
 </p>
 ได้ทำการ SSH ผ่านโปรแกรม VS ไปยัง PI4 
 ทำการอ่านค่า DHT22 ใช้ lip mqtt ในการส่งค่าไปยัง node-red เพื่อนำไปแสดงผลว่า googlesheet
