@@ -41,5 +41,5 @@ Business Intelligence (BI) Dashboard for Monitoring "รายงานข้อ
 หลังจากปล่อยมือค่าค่อยลดลงจนถึงจุดปกติ
 
 <p align="center">
-  <img src="images/grapDHT22.jpg" width="400">
+  <img src="images/grapDHT22.png" width="400">
 </p>
