@@ -12,14 +12,14 @@
 ทำการอ่านค่า DHT22 ใช้ lip mqtt ในการส่งค่าไปยัง node-red เพื่อนำไปแสดงผลว่า googlesheet
 
 <p align="center">
-  <img src="images/nodeRed.jpg" width="400">
+  <img src="images/nodeRed.jpg" width="800">
 </p>
 
 <p align="center">
-  <img src="images/googlesheet.jpg" width="400">
+  <img src="images/googlesheet.jpg" width="800">
 </p>
 
 <p align="center">
-  <img src="images/lookerstudio.jpg" width="400">
+  <img src="images/lookerstudio.jpg" width="800">
 </p>
 
