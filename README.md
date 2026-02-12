@@ -3,7 +3,7 @@
 <p align="center">
   <img src="images/pi4dht22.png" width="400">
 </p>
-ดำเนินการติดตั้งระบบปฏิบัติการ Raspberry Pi OS (64-bit) ลงบน MicroSD Card ผ่านเครื่องมือ Raspberry Pi Imager พร้อมทั้งตั้งค่าการเชื่อมต่อระยะไกลผ่าน SSH เพื่อความสะดวกในการบริหารจัดการระบบแบบ Headless (ไม่ต้องต่อจอภาพ)
+ติดตั้งระบบปฏิบัติการ Raspberry Pi OS (64-bit) ลงบน MicroSD Card ผ่านเครื่องมือ Raspberry Pi Imager พร้อมทั้งตั้งค่าการเชื่อมต่อระยะไกลผ่าน SSH เพื่อความสะดวกในการบริหารจัดการระบบแบบ Headless (ไม่ต้องต่อจอภาพ)
 
 Virtual Environment: จัดทำ Python Virtual Environment (venv) เพื่อแยกแยะ Library สำหรับการอ่านค่าเซนเซอร์ ป้องกันความสับสนของ Package ในระบบหลัก (System-wide)
 
@@ -23,7 +23,7 @@ GND: ต่อเข้ากับขา Pin 9
 <p align="center">
   <img src="images/VScode.jpg" width="800">
 </p>
-แสดงการออกแบบ Workflow บน Node-RED เพื่อรับข้อมูลจาก Raspberry Pi ผ่านโพรโทคอล MQTT โดยมีการใช้โหนด JSON และ Function (JavaScript) เพื่อจัดระเบียบข้อมูล (Data Transformation) ก่อนส่งผ่าน Google Sheets API เข้าสู่ฐานข้อมูลบนคลาวด์แบบอัตโนมัติ
+ออกแบบ Workflow บน Node-RED เพื่อรับข้อมูลจาก Raspberry Pi ผ่านโพรโทคอล MQTT โดยมีการใช้โหนด JSON และ Function (JavaScript) เพื่อจัดระเบียบข้อมูล (Data Transformation) ก่อนส่งผ่าน Google Sheets API เข้าสู่ฐานข้อมูลบนคลาวด์แบบอัตโนมัติ
 <p align="center">
   <img src="images/nodeRed.jpg" width="800">
 </p>
