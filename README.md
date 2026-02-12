@@ -21,19 +21,19 @@ GND: ต่อเข้ากับขา Pin 9
 การเลือกใช้ GPIO 4 ช่วยให้การเขียนโปรแกรมจัดการข้อมูลเป็นมาตรฐานและง่ายต่อการ Debug ผ่าน Library
 
 <p align="center">
-  <img src="images/VScode.jpg" width="800">
+  <img src="images/VScode.jpg" width="1000">
 </p>
 ออกแบบ Workflow บน Node-RED เพื่อรับข้อมูลจาก Raspberry Pi ผ่านโพรโทคอล MQTT โดยมีการใช้โหนด JSON และ Function (JavaScript) เพื่อจัดระเบียบข้อมูล (Data Transformation) ก่อนส่งผ่าน Google Sheets API เข้าสู่ฐานข้อมูลบนคลาวด์แบบอัตโนมัติ
 <p align="center">
-  <img src="images/nodeRed.jpg" width="800">
+  <img src="images/nodeRed.jpg" width="1000">
 </p>
 
 <p align="center">
-  <img src="images/googlesheet.jpg" width="800">
+  <img src="images/googlesheet.jpg" width="1000">
 </p>
 ข้อมูลเซนเซอร์ที่ถูกบันทึกแบบ Real-time ลงบน Google Sheets
 <p align="center">
-  <img src="images/lookerstudio.jpg" width="800">
+  <img src="images/lookerstudio.jpg" width="1000">
 </p>
 
 Business Intelligence (BI) Dashboard for Monitoring "รายงานข้อมูลเชิงวิเคราะห์ (Dashboard) ผ่าน Google Looker Studio ที่เชื่อมต่อกับฐานข้อมูลโดยตรง
