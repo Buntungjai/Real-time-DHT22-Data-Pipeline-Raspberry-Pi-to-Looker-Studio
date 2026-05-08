@@ -43,5 +43,5 @@ https://youtu.be/q6JtqDnpzvc
 หลังจากปล่อยมือค่าค่อยลดลงจนถึงจุดปกติ
 
 <p align="center">
-  <img src="images/grapDHT22.png" width="400">
+  <img src="https://raw.githubusercontent.com/Buntungjai/Real-time-DHT22-Data-Pipeline-Raspberry-Pi-to-Looker-Studio/main/images/grapDHT22.png" width="400">
 </p>
